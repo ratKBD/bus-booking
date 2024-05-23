@@ -1,0 +1,70 @@
+.busContainer {
+  border: 2px solid red;
+  width: 80%;
+  height: 50vh;
+  border-radius: 20px;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+.busTitle {
+  font-size: larger;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkorange;
+}
+/* .pageHeight {
+  height: 80vh;
+} */
+.seat {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.notavailablemale {
+  background-color: blue;
+}
+.notavailablefemale {
+  background-color: pink;
+}
+.available {
+  background-color: white;
+}
+
+.seatSelected {
+  background-color: green;
+}
+
+.legend-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.legend-color-blue {
+  background-color: blue;
+}
+.legend-color-pink {
+  background-color: pink;
+}
+
+.legend-color-green {
+  background-color: green;
+}
+/* Add more styles for other colors as needed */
